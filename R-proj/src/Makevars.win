@@ -1,0 +1,4 @@
+PKG_CPPFLAGS=-I../../external/boost -Iinclude
+PKG_CXXFLAGS= -lm -ldl -Wno-ignored-attributes -DBOOST_NO_AUTO_PTR -DDISABLE_NLP_ORACLES
+CXX_STD = CXX11
+
